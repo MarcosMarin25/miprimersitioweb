@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Oxygen&display=swap");
+@import url("http://fonts.cdnfonts.com/css/ferro-rosso");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a.nav-link {
+  font-size: 25px;
+  font-family: "Bebas Neue", cursive;
+  border-bottom: 3px solid transparent;
+}
+
+li {
+  padding-left: 80px;
+  margin-bottom: 5px;
+}
+
+a.nav-link:hover {
+  font-size: 25px;
+  border-bottom: solid 2px rgb(143, 24, 24);
+}
+
+nav {
+  border-bottom: solid 3px rgb(143, 24, 24);
+}
+
+.titulo {
+  font-size: 65px;
+  text-align: center;
+  font-family: "Ferro Rosso", sans-serif;
+}
+
+.historia {
+  font-family: "Oxygen", sans-serif;
+  margin: 0 45px;
+  margin-top: 15px;
+}
+
+
+.col-md-6 img{
+    margin-top: 10px;
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.pilotos {
+  margin-top: 15px;
+  font-size: 65px;
+  text-align: center;
+  font-family: "Ferro Rosso", sans-serif;
+}
+
+.bg-pilotos {
+  margin-top: 5px;
+  background-image: linear-gradient(white, rgb(41, 41, 41));
+  margin-bottom: 0px;
+}
+
+
+.card-img-top{
+    height: 200px;
+}
+
+.card{
+  margin: auto;
+  margin-bottom: 10px;
+  
+}
+
+.d-flex.icons i{
+  padding: 0 15px;
+}
+
+
